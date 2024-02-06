@@ -29,7 +29,7 @@ int main(){
         while (s[index] != '\0') {
             if (d == 'H') {
                 if(store == s[index] || array[y][x+index] == '.'){
-                    array[y][x+index] = s[index] ;
+                    array[y][x+index] = s[index];
                     store = s[index];
                 }
                 else if(store!=s[index]){
